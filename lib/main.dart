@@ -6,6 +6,7 @@ import './pages/DefaultTextStyle_demo.dart';
 import './pages/Button_demo.dart';
 import './pages/Image_demo.dart';
 import './pages/Icon_demo.dart';
+import './pages/Form_widget_demo.dart';
 import './pages/Form_demo.dart';
 
 void main() => runApp(MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Text Demo'),
         ),
-        body: FormDemo(),
+        body: FormWidgetDemo(),
       ),
     );
   }
