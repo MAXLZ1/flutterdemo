@@ -8,7 +8,8 @@ import './pages/Image_demo.dart';
 import './pages/Icon_demo.dart';
 import './pages/Form_widget_demo.dart';
 import './pages/Form_demo.dart';
-
+import './pages/container/Center_demo.dart';
+import './pages/container/Padding_demo.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
@@ -22,9 +23,9 @@ class MyApp extends StatelessWidget{
 //      ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Text Demo'),
+          title: Text('Flutter Demo'),
         ),
-        body: FormWidgetDemo(),
+        body: PaddingDemo(),
       ),
     );
   }
