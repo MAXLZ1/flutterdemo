@@ -17,6 +17,7 @@ import './pages/container/SizedOverflowBox_demo.dart';
 import './pages/container/OverflowBox_demo.dart';
 import './pages/container/LimtedBox_demo.dart';
 import './pages/container/ConstrainedBox_demo.dart';
+import './pages/container/DecoratedBox_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter Demo'),
         ),
-        body: ConstrainedBoxDemo(),
+        body: DecoratedBoxDemo(),
       ),
     );
   }
