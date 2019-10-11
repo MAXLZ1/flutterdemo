@@ -23,6 +23,7 @@ import './pages/container/RotateBox_demo.dart';
 import './pages/container/Transform_demo.dart';
 import './pages/container/Align_demo.dart';
 import './pages/layout/Row_demo.dart';
+import './pages/layout/Column_demo.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter Demo'),
         ),
-        body: RowDemo(),
+        body: ColumnDemo(),
       ),
     );
   }
