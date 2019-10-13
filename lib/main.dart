@@ -27,6 +27,7 @@ import './pages/layout/Column_demo.dart';
 import './pages/layout/Flex_demo.dart';
 import './pages/layout/Wrap_demo.dart';
 import './pages/layout/Flow_demo.dart';
+import './pages/layout/Stack_demo.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter Demo'),
         ),
-        body: FlowDemo(),
+        body: StackPositionedDemo(),
       ),
     );
   }
