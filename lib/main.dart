@@ -30,6 +30,7 @@ import './pages/layout/Flow_demo.dart';
 import './pages/layout/Stack_demo.dart';
 import './pages/layout/AspectRatio_demo.dart';
 import './pages/layout/Card_demo.dart';
+import './pages/layout/GridView_demo.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter Demo'),
         ),
-        body: CardDemo(),
+        body: GridViewDdemo(),
       ),
     );
   }
