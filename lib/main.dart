@@ -33,6 +33,7 @@ import './pages/layout/Card_demo.dart';
 import './pages/layout/GridView_demo.dart';
 import './pages/layout/Staggred_grid_view_demo.dart';
 import './pages/layout/ListView_demo.dart';
+import './pages/scroll/SingleChildScrollView_demo.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget{
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter Demo'),
         ),
-        body: InfiniteListDemo(),
+        body: SingleChildScrollViewDemo(),
       ),
     );
   }
