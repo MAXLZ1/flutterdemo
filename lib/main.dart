@@ -35,8 +35,8 @@ import './pages/layout/Staggred_grid_view_demo.dart';
 import './pages/layout/ListView_demo.dart';
 import './pages/scroll/SingleChildScrollView_demo.dart';
 import './pages/scroll/CustomScrollView_demo.dart';
+import './pages/functional_components/BottomNavigationBar_demo.dart';
 void main() => runApp(MyApp());
-
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -47,14 +47,12 @@ class MyApp extends StatelessWidget{
 //        primaryColor: Colors.cyanAccent
 //      ),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter Demo'),
-        ),
         body: CustomScrollViewDemo(),
       ),
     );
   }
 }
+
 
 class MyBody extends StatefulWidget{
   @override
