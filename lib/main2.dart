@@ -43,8 +43,46 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+//      theme: ThemeData(
+//        brightness: Brightness.light,
+//        accentColor: Colors.green,
+//        primaryColor: Colors.cyanAccent
+//      ),
       home: Scaffold(
-        body: CustomScrollViewDemo(),
+        body: Builder(
+          builder: (context) => Center(
+            child: RaisedButton(
+              child: Text('呼出左侧侧边栏'),
+              onPressed: () => Scaffold.of(context).openDrawer(),
+            ),
+          ),
+        ),
+        // body: OpenDrawer(),
+        drawer: DrawerDemo(),
+        endDrawer: DrawerDemo(),
+      ),
+    );
+  }
+}
+
+class OpenDrawer extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return SizedBox.expand(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          RaisedButton(
+            child: Text('呼出左侧侧边栏'),
+            onPressed: () => Scaffold.of(context).openDrawer(),
+          ),
+          RaisedButton(
+            child: Text('呼出右侧侧边栏'),
+            onPressed: () => Scaffold.of(context).openEndDrawer(),
+          )
+        ],
       ),
     );
   }
