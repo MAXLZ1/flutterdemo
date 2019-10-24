@@ -39,13 +39,17 @@ import './pages/functional_components/BottomNavigationBar_demo.dart';
 import './pages/functional_components/WillPopScope_demo.dart';
 import './pages/functional_components/Drawer_demo.dart';
 import './pages/functional_components/InheritedWidget_demo.dart';
+import './pages/event/Listener_demo.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: TestShareDataWidgetDemo(),
+        appBar: AppBar(
+          title: Text('Flutter demo')
+        ),
+        body: AbsorbPointerDemo(),
       ),
     );
   }
