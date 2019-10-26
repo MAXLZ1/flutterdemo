@@ -42,6 +42,7 @@ import './pages/functional_components/InheritedWidget_demo.dart';
 import './pages/event/Listener_demo.dart';
 import './pages/event/GestureDetector_demo.dart';
 import './pages/functional_components/Hide_demo.dart';
+import './pages/functional_components/getWidgetSize_demo.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
@@ -51,7 +52,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter demo')
         ),
-        body: OffstageDemo(),
+        body: GetWidgetSize(),
       ),
     );
   }
