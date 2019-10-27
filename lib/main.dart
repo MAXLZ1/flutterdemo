@@ -44,6 +44,7 @@ import './pages/event/GestureDetector_demo.dart';
 import './pages/functional_components/Hide_demo.dart';
 import './pages/functional_components/getWidgetSize_demo.dart';
 import './pages/functional_components/Notification_demo.dart';
+import './pages/animate/Animation_demo.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter demo')
         ),
-        body: NotificationRoute(),
+        body: AnimationRoute(),
       ),
     );
   }
