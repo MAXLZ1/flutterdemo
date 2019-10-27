@@ -45,6 +45,7 @@ import './pages/functional_components/Hide_demo.dart';
 import './pages/functional_components/getWidgetSize_demo.dart';
 import './pages/functional_components/Notification_demo.dart';
 import './pages/animate/Animation_demo.dart';
+import './pages/animate/AnimationWidget_demo.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title: Text('Flutter demo')
         ),
-        body: AnimationRoute(),
+        body: AnimatinoWidgetRoute(),
       ),
     );
   }
