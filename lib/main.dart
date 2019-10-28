@@ -47,16 +47,21 @@ import './pages/functional_components/Notification_demo.dart';
 import './pages/animate/Animation_demo.dart';
 import './pages/animate/AnimationWidget_demo.dart';
 import './pages/animate/AnimatedBuilder_demo.dart';
+import './pages/route/Route_demo.dart';
+import './pages/route/Page.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: {
+        '/page': (context) => PageRouteDemo()
+      },
       home: Scaffold(
         appBar: AppBar(
           title: Text('Flutter demo')
         ),
-        body: AnimatedBuilderDemo(),
+        body: RouteDemo(),
       ),
     );
   }
