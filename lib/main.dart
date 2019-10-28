@@ -49,20 +49,23 @@ import './pages/animate/AnimationWidget_demo.dart';
 import './pages/animate/AnimatedBuilder_demo.dart';
 import './pages/route/Route_demo.dart';
 import './pages/route/Page.dart';
+import 'package:flutterdemo/routes/Routes.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {
-        '/page': (context) => PageRouteDemo()
-      },
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter demo')
-        ),
-        body: RouteDemo(),
-      ),
+      onGenerateRoute: onGenerateRoute,
+      initialRoute: '/',
+//      routes: {
+//        '/page': (context) => PageRouteDemo()
+//      },
+//      home: Scaffold(
+//        appBar: AppBar(
+//          title: Text('Flutter demo')
+//        ),
+//        body: RouteDemo(),
+//      ),
     );
   }
 }
