@@ -3,14 +3,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutterdemo/route_pages/BottomNav.dart';
 import 'package:flutterdemo/route_pages/PageOne.dart';
 import 'package:flutterdemo/route_pages/Tab_demo.dart';
-
+import 'package:flutterdemo/pages/animate/AnimatedContainer_demo.dart';
 final routes = {
   '/': (context) => BottomNav(),
   '/pageone': (context, {arguments}) => PageOne(
         arguments: arguments,
       ),
   '/tabDemo': (context) => TabDemo(),
-  '/tabOfTabController': (context) => TabControllerDemo()
+  '/tabOfTabController': (context) => TabControllerDemo(),
+  '/AnimatedContainerRoute': (context) => AnimatedContainerRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
