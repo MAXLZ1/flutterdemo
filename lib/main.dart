@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       onGenerateRoute: onGenerateRoute,
-      initialRoute: '/ScaleTransitionRoute',
+      initialRoute: '/SlideTransitionRoute',
 //      routes: {
 //        '/page': (context) => PageRouteDemo()
 //      },
