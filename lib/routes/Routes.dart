@@ -8,6 +8,7 @@ import 'package:flutterdemo/pages/animate/AnimatedCrossFade_demo.dart';
 import 'package:flutterdemo/pages/animate/DecoratedBoxTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/FadeTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/PositionedTransition_demo.dart';
+import 'package:flutterdemo/pages/animate/RotationTransition_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -18,7 +19,8 @@ final routes = {
   '/AnimatedCrossFadeRoute': (context) => AnimatedCrossFadeRoute(),
   '/DecoratedBoxTransitionRoute': (context) => DecoratedBoxTransitionRoute(),
   '/FadeTransitionRoute': (context) => FadeTransitionRoute(),
-  '/PositionedTransitionRoute': (context) => PositionedTransitionRoute()
+  '/PositionedTransitionRoute': (context) => PositionedTransitionRoute(),
+  '/RotationTransitionRoute': (context) => RotationTransitionRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
