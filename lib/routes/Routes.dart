@@ -9,7 +9,7 @@ import 'package:flutterdemo/pages/animate/DecoratedBoxTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/FadeTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/PositionedTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/RotationTransition_demo.dart';
-
+import 'package:flutterdemo/pages/animate/ScaleTransition_demo.dart';
 final routes = {
   '/': (context) => BottomNav(),
   '/pageone': (context, {arguments}) => PageOne(arguments: arguments),
@@ -20,7 +20,8 @@ final routes = {
   '/DecoratedBoxTransitionRoute': (context) => DecoratedBoxTransitionRoute(),
   '/FadeTransitionRoute': (context) => FadeTransitionRoute(),
   '/PositionedTransitionRoute': (context) => PositionedTransitionRoute(),
-  '/RotationTransitionRoute': (context) => RotationTransitionRoute()
+  '/RotationTransitionRoute': (context) => RotationTransitionRoute(),
+  '/ScaleTransitionRoute': (context) => ScaleTransitionRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
