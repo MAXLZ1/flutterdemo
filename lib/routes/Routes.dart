@@ -5,6 +5,7 @@ import 'package:flutterdemo/route_pages/PageOne.dart';
 import 'package:flutterdemo/route_pages/Tab_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedContainer_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedCrossFade_demo.dart';
+import 'package:flutterdemo/pages/animate/DecoratedBoxTransition_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -14,7 +15,8 @@ final routes = {
   '/tabDemo': (context) => TabDemo(),
   '/tabOfTabController': (context) => TabControllerDemo(),
   '/AnimatedContainerRoute': (context) => AnimatedContainerRoute(),
-  '/AnimatedCrossFadeRoute': (context) => AnimatedCrossFadeRoute()
+  '/AnimatedCrossFadeRoute': (context) => AnimatedCrossFadeRoute(),
+  '/DecoratedBoxTransitionRoute': (context) => DecoratedBoxTransitionRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
