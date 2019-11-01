@@ -13,6 +13,7 @@ import 'package:flutterdemo/pages/animate/ScaleTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/SlideTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/AlignTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/SizeTransition_demo.dart';
+import 'package:flutterdemo/pages/animate/AnimatedDefaultTextStyle_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -28,7 +29,8 @@ final routes = {
   '/ScaleTransitionRoute': (context) => ScaleTransitionRoute(),
   '/SlideTransitionRoute': (context) => SlideTransitionRoute(),
   '/AlignTransitionRoute': (context) => AlignTransitionRoute(),
-  '/SizeTransitionRoute': (context) => SizeTransitionRoute()
+  '/SizeTransitionRoute': (context) => SizeTransitionRoute(),
+  '/AnimatedDefaultTextStyleRoute': (context) => AnimatedDefaultTextStyleRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {

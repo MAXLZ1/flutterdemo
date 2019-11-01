@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       onGenerateRoute: onGenerateRoute,
-      initialRoute: '/SizeTransitionRoute',
+      initialRoute: '/AnimatedDefaultTextStyleRoute',
 //      routes: {
 //        '/page': (context) => PageRouteDemo()
 //      },
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget{
 //        appBar: AppBar(
 //          title: Text('Flutter demo')
 //        ),
-//        body: RouteDemo(),
+//        body: FormWidgetDemo(),
 //      ),
     );
   }
