@@ -15,6 +15,7 @@ import 'package:flutterdemo/pages/animate/AlignTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/SizeTransition_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedDefaultTextStyle_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedList_demo.dart';
+import 'package:flutterdemo/pages/animate/AnimatedOpacity_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -32,7 +33,8 @@ final routes = {
   '/AlignTransitionRoute': (context) => AlignTransitionRoute(),
   '/SizeTransitionRoute': (context) => SizeTransitionRoute(),
   '/AnimatedDefaultTextStyleRoute': (context) => AnimatedDefaultTextStyleRoute(),
-  '/AnimatedListRoute': (context) => AnimatedListRoute()
+  '/AnimatedListRoute': (context) => AnimatedListRoute(),
+  '/AnimatedOpacity': (context) => AnimatedOpacityRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
