@@ -17,6 +17,7 @@ import 'package:flutterdemo/pages/animate/AnimatedDefaultTextStyle_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedList_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedOpacity_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedPhysicalModel_demo.dart';
+import 'package:flutterdemo/pages/animate/AnimatedPositioned_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -36,7 +37,8 @@ final routes = {
   '/AnimatedDefaultTextStyleRoute': (context) => AnimatedDefaultTextStyleRoute(),
   '/AnimatedListRoute': (context) => AnimatedListRoute(),
   '/AnimatedOpacity': (context) => AnimatedOpacityRoute(),
-  '/AnimatedPhysicalModel': (context) => AnimatedPhysicalModelRoute()
+  '/AnimatedPhysicalModel': (context) => AnimatedPhysicalModelRoute(),
+  '/AnimatedPositioned': (context) => AnimatedPositionedRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
