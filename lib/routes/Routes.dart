@@ -22,6 +22,7 @@ import 'package:flutterdemo/pages/animate/AnimatedSize_demo.dart';
 import 'package:flutterdemo/pages/request/RequestTest_demo.dart';
 import 'package:flutterdemo/pages/request/Dio_demo.dart';
 import 'package:flutterdemo/pages/Swiper_demo.dart';
+import 'package:flutterdemo/pages/functional_components/InkWell_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -46,7 +47,8 @@ final routes = {
   '/AnimatedSize': (context) => AnimatedSizeRoute(),
   '/RequestTestRoute': (context) => RequestTestRoute(),
   '/DioTest': (context) => DioTestRoute(),
-  '/Swpier': (context) => SwiperRoute()
+  '/Swpier': (context) => SwiperRoute(),
+  '/InkWell': (context) => InkWellRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
