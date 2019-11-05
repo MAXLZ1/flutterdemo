@@ -19,6 +19,9 @@ import 'package:flutterdemo/pages/animate/AnimatedOpacity_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedPhysicalModel_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedPositioned_demo.dart';
 import 'package:flutterdemo/pages/animate/AnimatedSize_demo.dart';
+import 'package:flutterdemo/pages/request/RequestTest_demo.dart';
+import 'package:flutterdemo/pages/request/Dio_demo.dart';
+import 'package:flutterdemo/pages/Swiper_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -40,7 +43,10 @@ final routes = {
   '/AnimatedOpacity': (context) => AnimatedOpacityRoute(),
   '/AnimatedPhysicalModel': (context) => AnimatedPhysicalModelRoute(),
   '/AnimatedPositioned': (context) => AnimatedPositionedRoute(),
-  '/AnimatedSize': (context) => AnimatedSizeRoute()
+  '/AnimatedSize': (context) => AnimatedSizeRoute(),
+  '/RequestTestRoute': (context) => RequestTestRoute(),
+  '/DioTest': (context) => DioTestRoute(),
+  '/Swpier': (context) => SwiperRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {

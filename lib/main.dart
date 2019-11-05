@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       onGenerateRoute: onGenerateRoute,
-      initialRoute: '/AnimatedSize',
+      initialRoute: '/Swpier',
 //      routes: {
 //        '/page': (context) => PageRouteDemo()
 //      },
