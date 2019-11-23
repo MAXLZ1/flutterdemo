@@ -54,7 +54,8 @@ class Home extends StatelessWidget{
       child: RaisedButton(
         child: Text('跳转至PageOne'),
         onPressed: () {
-          Navigator.pushNamed(context, '/pageone', arguments: '来自home页面的参数');
+          // Navigator.pushNamed(context, '/pageone', arguments: '来自home页面的参数');
+          Navigator.pushNamedAndRemoveUntil(context, '/pageone', ModalRoute.withName('/'), arguments: '来自home页面的参数');
         },
       ),
     );

@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       onGenerateRoute: onGenerateRoute,
-      initialRoute: '/SafeArea',
+      initialRoute: '/WebViewRoute',
 //      routes: {
 //        '/page': (context) => PageRouteDemo()
 //      },

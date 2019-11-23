@@ -24,6 +24,7 @@ import 'package:flutterdemo/pages/request/Dio_demo.dart';
 import 'package:flutterdemo/pages/Swiper_demo.dart';
 import 'package:flutterdemo/pages/functional_components/InkWell_demo.dart';
 import 'package:flutterdemo/pages/functional_components/SafeArea_demo.dart';
+import 'package:flutterdemo/pages/external_packages/Webview_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -50,7 +51,8 @@ final routes = {
   '/DioTest': (context) => DioTestRoute(),
   '/Swpier': (context) => SwiperRoute(),
   '/InkWell': (context) => InkWellRoute(),
-  '/SafeArea': (context) => SafeAreaRoute()
+  '/SafeArea': (context) => SafeAreaRoute(),
+  '/WebViewRoute': (context) => WebViewRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
