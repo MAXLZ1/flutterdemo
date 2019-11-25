@@ -25,6 +25,7 @@ import 'package:flutterdemo/pages/Swiper_demo.dart';
 import 'package:flutterdemo/pages/functional_components/InkWell_demo.dart';
 import 'package:flutterdemo/pages/functional_components/SafeArea_demo.dart';
 import 'package:flutterdemo/pages/external_packages/Webview_demo.dart';
+import 'package:flutterdemo/pages/functional_components/Clipboard_demo.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -52,7 +53,8 @@ final routes = {
   '/Swpier': (context) => SwiperRoute(),
   '/InkWell': (context) => InkWellRoute(),
   '/SafeArea': (context) => SafeAreaRoute(),
-  '/WebViewRoute': (context) => WebViewRoute()
+  '/WebViewRoute': (context) => WebViewRoute(),
+  '/ClipboardRoute': (context) => ClipboardRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
