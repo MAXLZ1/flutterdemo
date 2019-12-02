@@ -26,6 +26,7 @@ import 'package:flutterdemo/pages/functional_components/InkWell_demo.dart';
 import 'package:flutterdemo/pages/functional_components/SafeArea_demo.dart';
 import 'package:flutterdemo/pages/external_packages/Webview_demo.dart';
 import 'package:flutterdemo/pages/functional_components/Clipboard_demo.dart';
+import 'package:flutterdemo/pages/external_packages/Url_launcher.dart';
 
 final routes = {
   '/': (context) => BottomNav(),
@@ -54,7 +55,8 @@ final routes = {
   '/InkWell': (context) => InkWellRoute(),
   '/SafeArea': (context) => SafeAreaRoute(),
   '/WebViewRoute': (context) => WebViewRoute(),
-  '/ClipboardRoute': (context) => ClipboardRoute()
+  '/ClipboardRoute': (context) => ClipboardRoute(),
+  '/UrlLauncherRoute': (context) => UrlLauncherRoute()
 };
 
 Route onGenerateRoute(RouteSettings settings) {
